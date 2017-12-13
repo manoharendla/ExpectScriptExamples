@@ -14,7 +14,7 @@ The tutorial can be used as a reference while creating expect scripts
 *interact*   Allowing you in interact with your program.
 
 ## Example 1:
-** How to create a sample expect script**
+** How to create a sample expect script **
 
 ```
 #!/usr/bin/expect -f
