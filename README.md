@@ -13,6 +13,45 @@ The tutorial can be used as a reference while creating expect scripts
 
 *interact*   Allowing you in interact with your program.
 
+## Example 1:
+** How to create a sample expect script**
+
+```
+#!/usr/bin/expect -f
+
+set timeout -1
+spawn root@remoteserver
+expect "Password:"
+send "****\r"
+expect "#"
+interact
+```
+
+
+#!/usr/bin/expect -f
+> Guiding the interpreter to run it as expect program.
+
+set timeout -1
+> Setting the timeout to infinity 
+
+spawn ssh root@remoteserver
+> Run a program to perform a ssh to the remote server
+
+expect "Password:"
+> Expect a "Passoword:" prompt
+
+send "****\r"
+> Send the password, \r is carriage return (enter)
+
+interact
+> Terminal will be remained open for you to perform operations on remote server
+
+
+
+
+
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
