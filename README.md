@@ -47,7 +47,7 @@ interact
 > Terminal will be remained open for you to perform operations on remote server
 
 
-#Working with variables:
+# Working with variables:
 
 Use **set** commnad to define a variable and **$** to access the variable 
 
