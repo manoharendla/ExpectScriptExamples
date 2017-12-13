@@ -1,8 +1,17 @@
-## Welcome to GitHub Pages
+## Welcome to Expect scripting Tutorial
 
-You can use the [editor on GitHub](https://github.com/manoharendla/ExpectScriptExamples/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+The tutorial can be used as a reference while creating expect scripts
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+
+## Some of the basic commands used in Expect are 
+*spawn*     Starting a script or a program.
+
+*expect*    Waiting for program output.
+
+*send*       Sending a reply to your program.
+
+*interact*   Allowing you in interact with your program.
 
 ### Markdown
 
