@@ -56,8 +56,8 @@ Use **set** commnad to define a variable and **$** to access the variable
 **set var1 10**
 > Declaring a variable var1 and assigning a value of 10
 
--**set var1 [lindex $argv 0]**
--**set var2 [lindex $argv 1]**
+- **set var1 [lindex $argv 0]**
+- **set var2 [lindex $argv 1]**
 > Assign command line arguments as variables in script
 
 
