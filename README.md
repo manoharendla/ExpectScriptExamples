@@ -53,7 +53,7 @@ Use **set** commnad to define a variable and **$** to access the variable
 
 ## Examples for variables
 
-**set var1 10**
+- **set var1 10**
 > Declaring a variable var1 and assigning a value of 10
 
 - **set var1 [lindex $argv 0]**
