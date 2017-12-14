@@ -68,7 +68,8 @@ Use **set** commnad to define a variable and **$** to access the variable
 https://likegeeks.com/expect-command/
 
 
-
+# How to debug 
+**add exp_internal 1 at the begining of the script**
 
 
 
