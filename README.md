@@ -72,9 +72,16 @@ https://likegeeks.com/expect-command/
 **add exp_internal 1 at the begining of the script**
 
 
+# what is force conservative mode 
+set force_conservative 0  ;# set to 1 to force conservative mode.
+
+force_conservative parameter makes expect script to pause for one tenth of a second before sending each character. It is done so your shell will not ignore characters that came to quickly.
+
+set send_slow {1 .1} will do the same thing. It will make a 100ms pause (second parameter) every 1 symbol (first parameter).
 
 
-
+# Usage of log_user
+log_user 0 ; turns off the output to STDOUT (printing the output to the screen)
 
 ### Markdown
 
